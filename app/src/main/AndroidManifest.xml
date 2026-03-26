@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.snake">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- package="com.example.snake" больше не нужно, namespace задаётся в build.gradle -->
 
     <application
         android:allowBackup="true"
@@ -18,5 +18,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
